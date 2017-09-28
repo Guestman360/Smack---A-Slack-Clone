@@ -10,6 +10,7 @@
 		02A76720EEF7AD50DB5BED59 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C771CAAE87CEB8E50D248A81 /* Pods_Smack.framework */; };
 		042E7F771F7D8AFA0004E693 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F761F7D8AFA0004E693 /* Constants.swift */; };
 		042E7F791F7D90090004E693 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F781F7D90090004E693 /* LoginVC.swift */; };
+		042E7F7B1F7D94360004E693 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F7A1F7D94360004E693 /* CreateAccountVC.swift */; };
 		04D3CB5A1F7C83E4004A7015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3CB591F7C83E4004A7015 /* AppDelegate.swift */; };
 		04D3CB5F1F7C83E4004A7015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D3CB5D1F7C83E4004A7015 /* Main.storyboard */; };
 		04D3CB611F7C83E4004A7015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D3CB601F7C83E4004A7015 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		042E7F761F7D8AFA0004E693 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		042E7F781F7D90090004E693 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		042E7F7A1F7D94360004E693 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		04D3CB561F7C83E4004A7015 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D3CB591F7C83E4004A7015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D3CB5E1F7C83E4004A7015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				04D3CB721F7C93C5004A7015 /* ChatVC.swift */,
 				04D3CB741F7C93E1004A7015 /* ChannelVC.swift */,
 				042E7F781F7D90090004E693 /* LoginVC.swift */,
+				042E7F7A1F7D94360004E693 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				042E7F791F7D90090004E693 /* LoginVC.swift in Sources */,
 				04D3CB751F7C93E1004A7015 /* ChannelVC.swift in Sources */,
 				04D3CB5A1F7C83E4004A7015 /* AppDelegate.swift in Sources */,
+				042E7F7B1F7D94360004E693 /* CreateAccountVC.swift in Sources */,
 				042E7F771F7D8AFA0004E693 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
