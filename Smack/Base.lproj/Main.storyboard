@@ -331,7 +331,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="bDm-6f-jrO" eventType="touchUpInside" id="1qY-gg-sMw"/>
-                                    <action selector="pickAvaterPressed:" destination="aso-FG-OjL" eventType="touchUpInside" id="uvp-9t-q6H"/>
+                                    <action selector="pickAvatarPressed:" destination="aso-FG-OjL" eventType="touchUpInside" id="tMj-DM-6Te"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeP-wF-qzK">
