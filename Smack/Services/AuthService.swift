@@ -44,7 +44,8 @@ class AuthService {
         }
     }
     
-    func registerUser(email: String, pasword: String, completion: @escaping CompletionHandler) {
+    func registerUser(email: String, password: String, completion: @escaping CompletionHandler) {
+        
         let lowerCaseEmail = email.lowercased()
         
         // Key value pair can be found in Postman headers, below are JSON objects
