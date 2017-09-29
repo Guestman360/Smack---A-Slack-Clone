@@ -57,7 +57,7 @@ class CreateAccountVC: UIViewController {
                     if success {
                         AuthService.instance.createUser(name: name, email: email, avatarName: self.avatarName, avatarColor: self.avatarColor, completion: { (success) in
                             if success {
-                                // Unwind might be a little slow, just an fyi
+                                // Unwind might be a little slow, because server may be hibernating, just an fyi
                                 print(UserDataService.instance.name,
                                       UserDataService.instance.avatarName)
                                 self.spinner.isHidden = true
@@ -82,6 +82,7 @@ class CreateAccountVC: UIViewController {
         let b = CGFloat(arc4random_uniform(255)) / 255
         
         bgColor = UIColor(red: r, green: g, blue: b, alpha: 1)
+        avatarColor = "[\(r), \(g), \(b), 1]"
         UIView.animate(withDuration: 0.2) {
             self.userImg.backgroundColor = self.bgColor
         }
@@ -93,7 +94,8 @@ class CreateAccountVC: UIViewController {
         emailTxt.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceholder])
         passTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceholder])
         
-        let tap = UIGestureRecognizer(target: self, action: #selector(handleTap))
+        // Always make sure to specify the VC when using selectors, can slow down UI, take note
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountVC.handleTap))
         view.addGestureRecognizer(tap)
     }
     
