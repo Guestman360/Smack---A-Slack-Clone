@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02A76720EEF7AD50DB5BED59 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C771CAAE87CEB8E50D248A81 /* Pods_Smack.framework */; };
+		042C40D31F832A9200094CBF /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C40D21F832A9200094CBF /* KeyboardBoundView.swift */; };
+		042C40D51F83325100094CBF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C40D41F83325100094CBF /* MessageCell.swift */; };
 		042E7F771F7D8AFA0004E693 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F761F7D8AFA0004E693 /* Constants.swift */; };
 		042E7F791F7D90090004E693 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F781F7D90090004E693 /* LoginVC.swift */; };
 		042E7F7B1F7D94360004E693 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F7A1F7D94360004E693 /* CreateAccountVC.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042C40D21F832A9200094CBF /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		042C40D41F83325100094CBF /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		042E7F761F7D8AFA0004E693 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		042E7F781F7D90090004E693 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		042E7F7A1F7D94360004E693 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 				045669FD1F7DF7A000D6FE4E /* AvatarCell.swift */,
 				045669FF1F7E053500D6FE4E /* CircleImage.swift */,
 				044577531F7F4C2400235692 /* ChannelCell.swift */,
+				042C40D21F832A9200094CBF /* KeyboardBoundView.swift */,
+				042C40D41F83325100094CBF /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,9 +356,11 @@
 				04D3CB7D1F7CBF30004A7015 /* GradientView.swift in Sources */,
 				04C67F4B1F80335400831B49 /* AddChannelVC.swift in Sources */,
 				044577541F7F4C2400235692 /* ChannelCell.swift in Sources */,
+				042C40D51F83325100094CBF /* MessageCell.swift in Sources */,
 				042E7F791F7D90090004E693 /* LoginVC.swift in Sources */,
 				04D3CB751F7C93E1004A7015 /* ChannelVC.swift in Sources */,
 				042E7F801F7DD4690004E693 /* RoundedButton.swift in Sources */,
+				042C40D31F832A9200094CBF /* KeyboardBoundView.swift in Sources */,
 				04D3CB5A1F7C83E4004A7015 /* AppDelegate.swift in Sources */,
 				042E7F7B1F7D94360004E693 /* CreateAccountVC.swift in Sources */,
 				04C67F4E1F804C1200831B49 /* SocketService.swift in Sources */,
