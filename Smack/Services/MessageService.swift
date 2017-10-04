@@ -16,6 +16,7 @@ class MessageService {
     
     var channels = [Channel]()
     var messages = [Message]()
+    var unreadChannels = [String]()
     var selectedChannel: Channel?
     
     // PAY ATTENTION IN LECTURE 83, CAN'T RETRIEVE CHANNELS, NOT SURE IF ME OR SERVER IS BEING DUMB
